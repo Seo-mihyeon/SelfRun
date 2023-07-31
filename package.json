@@ -1,0 +1,23 @@
+{
+  "name": "SelfRun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seo-mihyeon/SelfRun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seo-mihyeon/SelfRun/issues"
+  },
+  "homepage": "https://github.com/Seo-mihyeon/SelfRun#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
