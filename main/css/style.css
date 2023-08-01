@@ -62,6 +62,11 @@ nav ul {
   letter-spacing: 0.1em;
 }
 
+ul li {
+    font-family: 'UhBeeSe_hyun', cursive;
+    font-size: 20px;
+}
+
 nav ul li a {
   text-decoration: none;
   color: #000000;
@@ -163,6 +168,11 @@ aside ul li:hover {
     float: left;
     box-sizing: border-box;
     border : 1px darkgoldenrod solid;
+}
+
+.left .cen {
+    position: relative;
+    top: 200px;
 }
 
 .right {
@@ -305,4 +315,16 @@ a.button {
 
 .project_box {
     border : 1px blue solid
+}
+
+.project_img_box {
+
+}
+
+.p_img{
+    width: 280px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }

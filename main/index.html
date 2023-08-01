@@ -7,26 +7,26 @@
     <style media="screen">
         * {margin: 0; padding: 0;}
         header {width: 100%; text-align: center; height: 50px; position: fixed;}
-        body {display: inline-block; margin-left: 50px; margin-top: 20px; cursor: pointer;}
+        body {display: inline-block; margin-left: 50px; margin-top: 20px; }
         div {width: 100vw; height: 600px;}
-      </style>
+    </style>
     <link rel="stylesheet" type="text/css" href="/main/css/style.css">
 </head>
 <body id="home">
     <!-- header 라인-->
     <header>
-      <a href="index.html" class="logo">SELFRUN_miming</a>
-      <nav>
-        <ul class="navbar__menu">
-          <li class="navbar__menu__itemN">🌻</li>
-          <li class="navbar__menu__item active" data-link="#home">HOME</li>
-          <li class="navbar__menu__itemN">🌻</li>
-          <li class="navbar__menu__item" data-link="#skill" >SKILL</li>
-          <li class="navbar__menu__itemN">🌻</li>
-          <li class="navbar__menu__item" data-link="#project">PROJECT</li>
-          <li class="navbar__menu__itemN">🌻</li>
+        <a href="index.html" class="logo">SELFRUN_miming</a>
+        <nav>
+            <ul class="navbar__menu">
+            <li class="navbar__menu__itemN">🌻</li>
+            <li class="navbar__menu__item active" data-link="#home">HOME</li>
+            <li class="navbar__menu__itemN">🌻</li>
+            <li class="navbar__menu__item" data-link="#skill" >SKILL</li>
+            <li class="navbar__menu__itemN">🌻</li>
+            <li class="navbar__menu__item" data-link="#project">PROJECT</li>
+            <li class="navbar__menu__itemN">🌻</li>
         </ul>
-      </nav>
+        </nav>
     </header>
     <!-- sidebar-->
     <aside>
@@ -55,9 +55,11 @@
     <section class="skill" id="skill">
         <div class="skill_box">
             <div class="left">
-                <ul>
-                    <li>git</li>
-                    <li>velog</li>
+                <ul class="cen">
+                    <li><a href="https://github.com/Seo-mihyeon"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white" style="width: 200px;"></a></li>
+                    <li><a href="https://github.com/Seo-mihyeon">GO GITHUB</a></li>
+                    <li style="margin-top: 20px;"><a href="https://velog.io/@mimme_"><img src="https://img.shields.io/badge/velog-20C997?style=for-the-badge&logo=velog&logoColor=white" style="width: 200px;"></a></li>
+                    <li><a href="https://velog.io/@mimme_">GO VELOG</a></li>
                 </ul>
             </div>
 
@@ -97,19 +99,23 @@
     </section>
     <section class="project" id="project">
         <div class="project_box">
-            project
+            <span class="project_img_box">
+                <img class="p_img" src="/main/img/coming_soon.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <img class="p_img" src="/main/img/coming_soon.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <img class="p_img" src="/main/img/coming_soon.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                <img class="p_img" src="/main/img/coming_soon.png" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+            </span>
         </div>
     </section>
     <footer>
-      <ul>
+    <ul>
         <!--
             <li><p>copyright ⓒ .</p></li>
         <li>
-          <a href="" target="_top"
-            >📧 Mail me :</a>
+            <a href="" target="_top">📧 Mail me :</a>
         </li>
         -->
-      </ul>
+    </ul>
     </footer>
     <script type="text/javascript" src="/main/js/index.js"></script>
   </body>
