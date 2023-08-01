@@ -17,14 +17,14 @@
     <header>
       <a href="index.html" class="logo">SELFRUN_miming</a>
       <nav>
-        <ul>
-          <li>🌻</li>
-          <li><a href="#home">HOME</a></li>
-          <li>🌻</li>
-          <li><a href="#skill">SKILL</a></li>
-          <li>🌻</li>
-          <li><a href="#project">PROJECT</a></li>
-          <li>🌻</li>
+        <ul class="navbar__menu">
+          <li class="navbar__menu__itemN">🌻</li>
+          <li class="navbar__menu__item active" data-link="#home">HOME</li>
+          <li class="navbar__menu__itemN">🌻</li>
+          <li class="navbar__menu__item" data-link="#skill" >SKILL</li>
+          <li class="navbar__menu__itemN">🌻</li>
+          <li class="navbar__menu__item" data-link="#project">PROJECT</li>
+          <li class="navbar__menu__itemN">🌻</li>
         </ul>
       </nav>
     </header>
@@ -41,7 +41,7 @@
                         구경해보실래요?
                     </pre>
                     <span class="btn-container">
-                        <a href="" title="구경할까?" class="button btnSlide btnOrange">
+                        <a href="#project" title="구경할까?" class="button btnSlide btnOrange">
                         <span class="top" data-content="Slide">구경할까?</span>
                         <span class="bottom" data-content="Slide">구경가자!</span>
                         </a>
@@ -52,13 +52,13 @@
             </div>
         </div>
     </section>
-    <section class="skill">
-        <div class="skill_box" id="skill">
+    <section class="skill" id="skill">
+        <div class="skill_box">
             skill
         </div>
     </section>
-    <section class="project" >
-        <div class="project_box"id="project">
+    <section class="project" id="project">
+        <div class="project_box">
             project
         </div>
     </section>
@@ -73,6 +73,6 @@
         -->
       </ul>
     </footer>
+    <script type="text/javascript" src="/main/js/index.js"></script>
   </body>
-<script src="/main/js/index.js"></script>
 </html>

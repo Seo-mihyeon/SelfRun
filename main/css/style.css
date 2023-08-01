@@ -5,7 +5,7 @@
     font-weight: normal;
     font-style: normal;
     }
-    
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -188,6 +188,14 @@ aside ul li:hover {
     border : 1px hotpink solid;
 }
 
+.navbar__menu__item:hover {
+    color: #e86a3c;
+    cursor: pointer;
+}
+
+.navbar__menu__itemN:hover {
+    cursor: default
+}
 /* 각 섹션별 css 처리*/
 /* home */
 .home {
