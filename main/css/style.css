@@ -196,11 +196,26 @@ aside ul li:hover {
 .navbar__menu__itemN:hover {
     cursor: default
 }
+
+.cen {
+    text-align:center;
+}
+
+.cen > span >.cen_img{
+    width:500px;
+    height: 50px;
+}
+
+.img_all {
+    position: relative;
+    top: 175px;
+    left: 80px;
+}
 /* 각 섹션별 css 처리*/
 /* home */
 .home {
     /* background-color: pink; */
-    margin-top: 140px; 
+    /* margin-top: 140px;  */
     height: 100vh;
     display: flex;
     justify-content: center;
