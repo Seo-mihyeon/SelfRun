@@ -167,7 +167,7 @@ aside ul li:hover {
     width: 50%;
     float: left;
     box-sizing: border-box;
-    border : 1px darkgoldenrod solid;
+    /* border : 1px darkgoldenrod solid; */
 }
 
 .left .cen {
@@ -179,14 +179,14 @@ aside ul li:hover {
     width: 50%;
     float: right;
     box-sizing: border-box;
-    border : 1px hotpink solid;
+    /* border : 1px hotpink solid; */
 }
 
 .left70{
     width: 70%;
     float: left;
     box-sizing: border-box;
-    border : 1px darkgoldenrod solid;
+    /* border : 1px darkgoldenrod solid; */
     padding : 150px 40px;
     display: flex;
 }
@@ -195,7 +195,7 @@ aside ul li:hover {
     width: 30%;
     float: right;
     box-sizing: border-box;
-    border : 1px hotpink solid;
+    /* border : 1px hotpink solid; */
 }
 
 .navbar__menu__item:hover {
@@ -232,7 +232,7 @@ aside ul li:hover {
     align-items: center;
 }
 .home_box {
-    border : 1px black solid
+    /* border : 1px black solid */
 }
 
 .btn-container{
@@ -300,7 +300,7 @@ a.button {
     align-items: center;
 }
 .skill_box {
-    border : 1px red solid
+    /* border : 1px red solid */
 }
 
 /* project*/
@@ -314,7 +314,7 @@ a.button {
 }
 
 .project_box {
-    border : 1px blue solid
+    /* border : 1px blue solid */
 }
 
 .project_img_box {
